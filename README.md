@@ -26,3 +26,15 @@ GET /api/books/
 ```http
 GET /api/books/:id
 ```
+
+#### create book
+
+```http
+POST /api/books/
+
+{
+    "name" : "Naruto",
+    "author" : "Masashi Kishimoto",
+    "publish_date" : "1999-01-01"
+}
+```
