@@ -7,8 +7,22 @@
 php artisan serve
 ```
 
+server will run on http://localhost:8000/
+
+#### migrate database
+
+```
+php artisan migrate
+```
+
 #### get all books
 
 ```http
-GET http://localhost:8000/api/books/
+GET /api/books/
+```
+
+#### get a book
+
+```http
+GET /api/books/:id
 ```
