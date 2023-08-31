@@ -1,6 +1,12 @@
 ## Simple Book API
 ### Using Laravel and PostgreSQL
 
+#### run laravel
+
+```
+php artisan serve
+```
+
 #### get all books
 
 ```http
